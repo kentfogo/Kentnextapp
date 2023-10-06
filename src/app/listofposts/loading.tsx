@@ -23,14 +23,6 @@ export default async function ListOfPosts() {
     return (
     <div>
         <Image src={dog.message} alt="dog" width={300} height={300} />
-        {posts.map((post: any)=> {
-            return <p> {post.title}</p>
-        })}
-        
-
-        {users.map((user: any) => {
-            return <p> {user.name} </p>;
-        })}
     </div>
     );
 }
